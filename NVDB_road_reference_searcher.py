@@ -1,3 +1,8 @@
+import openpyxl
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+
 def NVDB_road_reference_searcher():
 #Acquires a list of road references from an excel file and marks the location of the
 #road references in the NVDB website.
